@@ -1,0 +1,31 @@
+{
+  "name": "wamp-router",
+  "version": "0.2.0",
+  "description": "A WAMP router implementation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./demo/server.js",
+    "start-service": "node ./demo/service.js",
+    "start-client": "node ./demo/client.js"
+  },
+  "author": "Jimoh Damilola",
+  "license": "MIT",
+  "devDependencies": {
+    "autobahn": "17.5.2",
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "chai-spies": "^0.5.1",
+    "jsdoc": "^3.3.0-alpha9",
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "debug": "^2.0.0",
+    "dna": "git+https://github.com/christian-raedel/dna",
+    "http": "0.0.0",
+    "lodash": "^2.4.1",
+    "node-cconf": "git+https://github.com/christian-raedel/node-cconf.git",
+    "node-clogger": "git+https://github.com/christian-raedel/node-clogger.git",
+    "q": "^1.0.1",
+    "ws": "^0.6.4"
+  }
+}
